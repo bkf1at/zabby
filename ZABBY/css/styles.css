@@ -1,0 +1,232 @@
+/* Style sheet created by: Barbara Kuffour, 11-24-2019*/
+
+
+/* Style for body specifies a background color */
+body {
+	background-repeat: no-repeat;
+	margin: 2em;
+}
+
+/* Style for main specifies box-shadow properties */
+main{
+	box-shadow: 5px 5px 5px 5px #888888;
+	background-color: ;
+}
+
+/* Style for header specifies top and bottom margins, background color, rounded border, shadow, and alignment */
+header {
+	text-align: center;
+	font-size: 30px;
+	font-style: oblique;
+}
+
+article {
+	margin: 0.01em;
+}
+
+/* Style specifies property for h4 */
+h4 {
+		font-style: italic;
+	}
+	
+/* Style displays the mobile class */
+.mobile {
+		display: inline;
+}
+
+#par {
+	display: none;
+}
+
+#nav-wrapper {
+	display:inline;
+}
+.carousel-item {
+	display: inline;
+   height: 400px;
+}
+
+/* Style hides the desktop class */
+.desktop {
+		display: none;
+}
+
+/*Quote Slider*/
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+  height: 140px;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 1px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+
+/*End*/
+
+
+/* Style for footer specifies font size, text alignment, and top margin */
+footer {
+		margin-top: -0.2em;
+		padding: 2em;
+		overflow: auto;
+	}
+
+/* Media query for tablet viewport targets screen size with a minimum width of 660px. */
+
+@media only screen and (min-width: 660px){
+	
+	img {
+		border-radius: 20px;
+}
+
+/* Style for the footer specifies font size, text alignment, and top margin */	
+	footer {
+	font-size: .70em;
+	text-align: right;
+	margin-top: 2em;
+	font-size: 15px;
+}
+
+/* Style displays the mobile class */
+.mobile {
+		display: inline;
+}
+
+.desktop {
+	display: ;
+}
+
+.carousel-item {
+	display: inline;
+
+}
+
+/* Media query for desktop viewport targets screens with a minimum width of 830px. */
+
+@media only screen and (min-width: 830px) {
+	
+#travel {
+	margin: 1em;
+	padding: 1em;
+}
+
+/* Style specifies property for head class */
+.head {
+	border: 2px solid #0E0F10;
+	padding: 20px;
+	border-radius: 50px 20px;
+	border-top: 20px;
+}
+
+.carousel {
+	height:500px;
+	margin: 1em;
+}
+		
+/* Style specifies property for article element */
+article {
+	border-top: solid 0.2em #FF6600;
+	padding: 2%;
+	margin: 1%;
+	text-align: left;
+}
+
+/* Style specifies property for about id */
+#about {
+	border: solid 0.3em #FFFF00;
+	padding: 20px;
+}
+
+/* Style hides the desktop class */
+.desktop {
+		display: inline;
+}
+	
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+
+#par {
+	display: inline;
+}
+
+/* Style rules for pseudo-classes */
+	nav li a:link {
+		color: #FFFFFF;
+	}
+
+	nav li a:hover {
+		color: #9D9D93;
+		font-style: italic;
+	}
+
+}
